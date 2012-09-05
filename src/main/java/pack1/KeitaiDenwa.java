@@ -18,6 +18,16 @@ public class KeitaiDenwa extends Denwa {
 		return this.packetRyokin; // パケット料金を戻す
 	}
 
+	public int mail(String joutai) {
+
+		return this.packetRyokin; // パケット料金を戻す
+	}
+
+	public int mail(String joutai, int kaisu) {
+
+		return this.packetRyokin; // パケット料金を戻す
+	}
+
 	public String getMailAddress() {
 		return mailAddress;
 	}
